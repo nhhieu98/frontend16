@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<script type="text/javascript" src="js/index1.js"></script>
+	<style type="text/css">
+		body {
+			background: #F2F3F5;
+		}
+		div {
+			border: 2px solid;
+			border-radius: 15px;
+			width: 900px;
+			height: 300px;
+			line-height: 45px;
+			margin-left: 250px;
+			margin-top: 60px;
+		}
+		span {
+			margin-left: 280px;
+		}	
+	</style>
+</head>
+<body>
+	<div>
+		<table>
+			<tr>
+				<td width="200px">Họ và tên:</td>
+				<td><input type="text" name="" placeholder="Nhập họ tên..." size="50px" onkeyup="hoten(this)"></td>
+				<td id="errorName" style="color: red"></td>
+			</tr>
+			<tr>
+				<td width="200px">Giới tính:</td>
+				<td><input type="radio" name=""> Nam <input type="radio" name=""> Nữ</td>
+				<td></td>
+			</tr>
+			<tr>
+				<td width="200px">Email:</td>
+				<td><input type="email" name="email" id="email" placeholder="Nhập email..." size="50px" onkeyup="email(this)"></td>
+				<td id="errorEmail" style="color: red"></td>
+			</tr>
+			<tr>
+				<td width="200px">Số điện thoại:</td>
+				<td><input type="text" name="number" id="phonenumber" placeholder="Nhập số điện thoại..." size="50px" onkeyup="phone(this)"></td>
+				<td id="phone" style="color: red"></td>
+			</tr>
+			<tr>
+				<td width="200px">Mật khẩu:</td>
+				<td><input type="password" name="password" id="password" size="50px" onkeyup="password(this)" onkeyup="password(this)"></td>
+				<td id="errorPassword" style="color: red"></td>
+			</tr>
+			<tr>
+				<td width="200px">Xác nhận mật khẩu:</td>
+				<td><input type="password" name="password" id="checkpass" size="50px" onkeyup="checkPass(this)"></td>
+				<td id="errorPass" style="color: red"></td>
+			</tr>
+		</table>
+	</div><br>
+	<span>
+		<button>Đăng ký</button>&emsp;&emsp;<button>Xóa trắng</button>
+	</span>
+</body>
+</html>

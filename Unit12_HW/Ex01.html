@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<link rel="stylesheet" type="text/css" href="js/index1.css">
+</head>
+<body>
+	<div id="menu">
+		<div id="tex">jQuery Steps</div>
+		<div id="tex1">
+			<ul>
+				<li>Getting Started</li>
+				<li>Examples</li>
+				<li>Documentation</li>
+				<li>Bootgrid<span>Plugin</span></li>
+				<li>Blog</li>
+				<li>GitHub</li>
+				<li>About</li>
+			</ul>
+		</div>
+	</div><br>
+	<div id="main">
+		<div>
+			<ul>
+				<li id="tab-acc"><a href="#"></a>1. Accout</li>
+				<li id="tab-pro"><a href="#"></a>2. Profile</li>
+				<li id="tab-war"><a href="#"></a>3. Warning</li>
+				<li id="tab-fin"><a href="#"></a>4. Finish</li>
+			</ul>
+		</div><br>
+		<div id="table">
+			<div id="tab1">
+				<div id="header"><h3>Accout Infomation</h3></div>
+				<div id="text">
+					<div>User name *</div>
+					<input type="text" size="30px" id="username">
+					<label class="err" id="err-username"></label>
+					<div>Password *</div>
+					<input type="text" size="30px" id="password">
+					<label class="err" id="err-password"></label>
+					<div>Confirm Password</div>
+					<input type="text" size="30px" id="con-pass">
+					<label class="err" id="err-con-pass"></label>
+					<div>(*) Mandatory</div>
+				</div>
+			</div>
+			<div id="tab2">
+				<div id="header"><h3>Profile Infomation</h3></div>
+				<div id="text">
+					<div>First name *</div>
+					<input type="text" size="30px" id="firstname">
+					<label class="err" id="err-firstname"></label>
+					<div>Last name *</div>
+					<input type="text" size="30px" id="lastname">
+					<label class="err" id="err-lastname"></label>
+					<div>Email *</div>
+					<input type="text" size="30px" id="email">
+					<label class="err" id="err-email"></label>
+					<div>Address</div>
+					<input type="text" size="30px" id="address">
+					<label class="err" id="err-address"></label>
+					<div>Age (The warning step will show up if age is less than 18) *</div>
+					<input type="text" size="30px" id="age">
+					<label class="err" id="err-age"></label>
+					<div>(*) Mandatory</div>
+				</div>
+			</div>
+			<div id="tab3">
+				<div id="header"><h3>You are to young</h3></div>
+				<div id="text">
+					Please go away ;-)
+				</div>
+			</div>
+			<div id="tab4">
+				<div id="header"><h3>Terms and Conditions</h3></div>
+				<div id="text">
+					<input type="checkbox" name="">I agree with the Terms and Conditions.
+				</div>
+			</div><br>
+			<div id="button">
+				<button id="pre">Previous</button>
+				<button id="next">Next</button>
+			</div>
+		</div>
+	</div>
+
+	<script type="text/javascript" src="js/jquery.min.js"></script>
+
+	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+
+	<script type="text/javascript" src="js/text1.js"></script>
+</body>
+</html>

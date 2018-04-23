@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+</head>
+<body>
+	<!-- <input type="text" onblur="test(this)"> -->
+
+	<input type="text" onkeyup="test(this)">
+
+	<p id="error"></p>
+
+	<script type="text/javascript">
+		function test(a) {
+			if (a.value.length < 6) {
+				document.getElementById('error').innerHTML = 'Độ dài phải có ít nhất 6 kí tự';
+			} else {
+				document.getElementById('error').innerHTML = '';
+			}
+		}
+	</script>
+</body>
+</html>

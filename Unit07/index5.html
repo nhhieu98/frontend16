@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+</head>
+<body>
+	<input type="text" name="" onblur="test(this)" value="ahihi" onfocus="test1(this)">
+
+	<script type="text/javascript">
+		function test(a) {
+			a.value = a.value.toUpperCase();
+			a.style.borderColor="red";
+		}
+		function test1(a) {
+			a.style.borderColor="green";
+			a.style.color="red";
+		}
+	</script>
+</body>
+</html>

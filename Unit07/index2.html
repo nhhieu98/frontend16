@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+</head>
+<body>
+	<p id="test">
+		Thành óc chó ahihi ^.^
+	</p>
+
+	<p class="test">
+		Thành óc chó ahihi ^.^
+	</p>
+
+	<p class="test">
+		Thành óc chó ahihi ^.^
+	</p>
+
+	<button onclick="clickhere()">click here</button>
+
+	<!-- <script type="text/javascript">
+		function clickhere() {
+			document.getElementById('test').style.color="red";
+		}
+	</script> -->
+
+	<script type="text/javascript">
+		function clickhere() {
+			var a = document.getElementsByClassName('test');
+
+			for (var i = 0; i < a.length; i++) {
+				a[i].style.color="red";
+			}
+		}
+	</script>
+</body>
+</html>

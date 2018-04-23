@@ -1,0 +1,118 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+#menu {
+	background-color: #6f5499;
+	height: 50px;
+}
+#tex {
+	width: 550px;
+	float: left;
+	line-height: 50px;
+	color: white;
+	padding-left: 30px;
+	font-size: 20px;
+}
+#tex1 li {
+	list-style: none;
+	float: left;
+	padding-right: 20px;
+	padding-left: 20px;
+	line-height: 50px;
+	color: white;
+}
+#tex:hover {
+	color: orange;
+	cursor: pointer;
+}
+#tex1 li:hover {
+	color: orange;
+	cursor: pointer;
+}
+#main ul {
+	height: 50px;
+	margin-left: 100px;
+}
+#main li {
+	list-style: none;
+	float: left;
+	padding-left: 20px;
+	padding-right: 100px;
+	line-height: 50px;
+	margin-right: 30px;
+	border-radius: 6px;
+	background-color: #2184BE;
+	color: white;
+}
+#table {
+	margin-left: 100px;
+}
+#tab1 {
+	background-color: #eee;
+	width: 820px;
+	height: 550px;
+	border-radius: 6px;
+	line-height: 40px;
+}
+#header {
+	height: 40px;
+	padding-left: 20px;
+	line-height: 40px;
+	border-bottom: 1px solid gray;
+}
+#text {
+	padding-left: 20px;
+	padding-top: 40px;
+}
+input {
+	height: 28px;
+	border: 1px solid #ccc;
+	border-radius: 5px;
+}
+#button {
+	margin-left: 650px;
+}
+#pre {
+	border: none;
+	height: 35px;
+	width: 80px;
+	border-radius:6px; 
+}
+#next {
+	border: none;
+	height: 35px;
+	width: 80px;
+	border-radius:6px;
+	background-color: #2184BE;
+}
+#tab2 {
+	background-color: #eee;
+	width: 820px;
+	height: 550px;
+	border-radius: 6px;
+	line-height: 40px;
+}
+#tab3 {
+	background-color: #eee;
+	width: 820px;
+	height: 550px;
+	border-radius: 6px;
+	line-height: 40px;
+	
+}
+#tab4 {
+	background-color: #eee;
+	width: 820px;
+	height: 550px;
+	border-radius: 6px;
+	line-height: 40px;
+	
+}
+#tab-pro,#tab-war,#tab-fin {
+	background-color: #eee !important;
+	color: #AAA !important;
+}
+.err {
+	color: red;
+}

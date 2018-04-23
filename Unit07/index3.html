@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+</head>
+<body>
+	<input type="text" id="input">
+	<button onclick="clickhere()">Add</button>
+
+	<div id="content">
+		
+	</div>
+
+	<script type="text/javascript">
+		var i = 1;	
+
+		function clickhere() {
+			var a = document.getElementById('input');
+
+			var b = document.getElementById('content');
+
+			b.innerHTML = '<p id="p' + i + '">' + a.value + '<button onclick="del(' + i + ')"> Xoa </button> </p>' + b.innerHTML ;
+
+			a.value='';
+			i++;
+		}
+
+		function del(i) {
+			document.getElementById('p'+i).remove();
+		}
+	</script>
+</body>
+</html>

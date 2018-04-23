@@ -1,0 +1,118 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+.menu {
+	background-color: #78b43d;
+	height: 40px;
+}
+#logo {
+	border-right: 1px solid;
+	border-color: white;
+	width: 90px;
+	height: 40px;
+	float: left;
+}
+#mid {
+	color: white;
+	line-height: 40px;
+	border-right: 1px solid white;
+	width: 140px;
+	float: left;
+	position: relative;
+}
+#sub-mid {
+	text-align: center;
+}
+#tab li {
+	list-style: none;
+	float: left;
+	line-height: 40px;
+	padding-left: 8px;
+	padding-right: 6px;
+}
+#right ul li a {
+	text-decoration: none;
+	color: white;
+}
+#search {
+	line-height: 40px;
+	color: white;
+	float: right;
+	border: 1px solid white;
+	border-radius: 50%;
+	width: 30px;
+	height: 35px;
+	margin-right: 20px;
+	text-align: center;
+}
+#mid>#sub-mid:hover {
+	background-color: gray;
+	cursor: pointer;
+}
+.sub {
+	background-color: #aad862;
+	list-style: none;
+	display: none;
+	position: absolute;
+	margin-left: -91px;
+	width: 190px;
+}
+.sub li {
+	padding-left: 0;
+	width: 190px;
+	border-bottom: 1px solid #78b43d;
+}
+.sub li a {
+	text-decoration: none;
+	color: black;
+}
+#mid:hover .sub {
+	display: block;
+}
+.sub li:hover {
+	background-color: gray;
+}
+#sub1 {
+	position: relative;
+}
+.has-sub {
+	list-style: none;
+	display: none;
+	position: absolute;
+}
+.has-sub li {
+	background-color: #78b43d;
+	border-bottom: 1px solid #aad862;
+}
+#sub1:hover .has-sub {
+	display: block;
+	top: 0;
+	left: 190px;
+}
+.has-sub li:hover {
+	background-color: gray;
+}
+#tab li a:hover {
+	color: red;
+}
+.tab1 {
+	position: relative;
+}
+.has-tab {
+	width: 190px;
+	position: absolute;
+	display: none;
+	background-color: #aad862;
+	cursor: pointer;
+}
+.has-tab li {
+	width: 175px;
+	border-bottom: 1px solid #78b43d;
+}
+.tab1:hover .has-tab{
+	display: block;
+}
+.has-tab li:hover {
+	background-color: #78b43d;
+}

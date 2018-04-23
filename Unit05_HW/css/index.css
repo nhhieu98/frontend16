@@ -1,0 +1,378 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: arial;
+}
+ul li {
+	list-style: none;
+	float: left;
+}
+.banner1 {
+	background-color: #008080;
+	width: 100%;
+	height: 90px;
+	position: relative;
+}
+#anh {
+	float: left;
+	position: absolute;
+	left: 60px;
+	top: 12px;
+}
+#search {
+	float: left;
+	position: absolute;
+	left: 400px;
+	top: 28px;
+}
+#search1 {
+	float: left;
+	color: white;
+	
+}
+#search1 input {
+	width: 220px;
+	height: 30px;
+	background-color: #004d4d;
+}
+#search2 {
+	float: left;
+	left: 224px;
+}
+#sp {
+	position: absolute;
+	right: 100px;
+	color: #00e6e6;
+	top: 29px;
+}
+#sp:hover {
+	cursor: pointer;
+}
+#sp1 {
+	float: left;
+}
+#sp2 {
+	float: left;
+	width: 100px;
+	margin-left: 10px;
+}
+.sp1 {
+	float: left;
+}
+.sp2 {
+	float: left;
+}
+.sp3 {
+	float: left;
+}
+.banner2 {
+	background-color: #009999;
+	height: 50px;
+	position: relative;
+}#menu {
+	margin-left: 30px;
+}
+#menu li {
+	float: left;
+	padding-left: 20px;
+	line-height: 50px;
+	color: white;
+	padding-right: 20px;
+}
+#menu li:hover {
+	cursor: pointer;
+	background-color: #004d4d;
+}
+#menu1 {
+	position: absolute;
+	color: white;
+	right: 100px;
+	top: 16px;
+}
+#menu1:hover {
+	cursor: pointer;
+}
+.banner3 {
+	background-color: lavender;
+	height: 45px;
+	position: relative;
+}
+#menu2 {
+	line-height: 45px;
+	color: #00e6e6;
+	position: absolute;
+	right: 100px;
+}
+#menu2:hover {
+	cursor: pointer;
+}
+.main {
+	width: 100%;
+}
+.right {
+	padding-left: 70px;
+	width: 60%;
+	float: left;
+}
+#right1 {
+	text-align: center;
+}
+#right2 {
+	position: relative;
+	background-color: #f2f2f2;
+	height: 2000px;
+}
+#left {
+	width: 30%;
+}
+#box {
+	position: absolute;
+	left: 20px;
+	background-color: white;
+	width: 369px;
+	height: 350px;
+}
+#text {
+	margin-left: 10px;
+	line-height: 22px;
+}
+#text:hover {
+	cursor: pointer;
+	color: #008080;
+}
+#box1 {
+	position: absolute;
+	left: 20px;
+	background-color: white;
+	width: 369px;
+	height: 350px;
+	top: 410px;
+}
+#box2 {
+	position: absolute;
+	left: 20px;
+	background-color: white;
+	width: 369px;
+	height: 350px;
+	top: 780px;
+}
+#box3 {
+	position: absolute;
+	left: 20px;
+	background-color: white;
+	width: 369px;
+	height: 350px;
+	top: 1150px;
+}
+#box4 {
+	position: absolute;
+	left: 20px;
+	background-color: white;
+	width: 369px;
+	height: 350px;
+	top: 1520px;
+}
+#box5 {
+	position: absolute;
+	right: 20px;
+	background-color: white;
+	width: 369px;
+	height: 350px;
+}
+#box6 {
+	position: absolute;
+	right: 20px;
+	background-color: white;
+	width: 369px;
+	height: 350px;
+	top: 410px;
+}
+#box7 {
+	position: absolute;
+	right: 20px;
+	background-color: white;
+	width: 369px;
+	height: 350px;
+	top: 780px;
+}
+#box8 {
+	position: absolute;
+	right: 20px;
+	background-color: white;
+	width: 369px;
+	height: 350px;
+	top: 1150px;
+}
+#box9 {
+	position: absolute;
+	right: 20px;
+	background-color: white;
+	width: 369px;
+	height: 350px;
+	top: 1520px;
+}
+#box10 {
+	position: absolute;
+	top: 1900px;
+	left: 130px;
+}
+.left {
+	float: left;
+	margin-left: 40px;
+	margin-top: 36px;
+}
+#table1 {
+	width: 335px;
+	border: 1px solid;
+	position: relative;
+}
+#left {
+	background-image: url(../images/frame.png);
+	height: 40px;
+	color: white;
+	line-height: 40px;
+	width: 335px;
+}
+#index {
+	margin-left: 20px;
+	margin-top: 16.5px;
+}
+#index:hover {
+	cursor: pointer;
+	color: #008080;
+}
+#tex {
+	position: absolute;
+	left: 15px;
+}
+.mid {
+	clear: both;
+	padding-top: 30px;
+	height: 200px;
+}
+#tab {
+	width: 1180px;
+	border: 1px solid;
+	height: 50px;
+	margin-left: 70px;
+	margin-top: 30px;
+	line-height: 50px;
+}
+#bang {
+	width: 1180px;
+	border: 1px solid;
+	height: 100px;
+	margin-left: 70px;
+	line-height: 20px;
+}
+#tab1 {
+	color: #008080;
+	padding-left: 100px;
+	float: left;
+}
+#bang1 {
+	color: #008080;
+	padding-left: 100px;
+	float: left;
+	width: 224px;
+}
+#bang2 {
+	padding-left: 100px;
+	color: #008080;
+	float: left;
+	width: 164px;
+}
+#bang3 {
+	padding-left: 100px;
+	color: #008080;
+	float: left;
+}
+#bang4 {
+	color: #008080;
+	float: left;
+	padding-left: 45px;
+}
+.footer {
+	background-color: #008080;
+	position: relative;
+}
+#img {
+	position: absolute;
+	right: 50px;
+	top: 30px;
+}
+@media (min-width: 1200px) {
+	.banner {
+		width: 1330px;
+	}
+	.main {
+		width: 1330px;
+	}
+	.footer {
+		width: 1330px;
+	}
+}
+@media (max-width: 768px){
+	#anh {
+		left: 0;
+	}
+	#search {
+		left: 200px;
+	}
+	#sp {
+		top: 5px;
+		left: 500px;
+		font-size: 11px;
+	}
+	#sp1 {
+		display: none;
+	}
+	#menu {
+		margin-left: 0;
+	}
+	#menu li {
+		padding-right: 5px;
+		padding-left: 5px;
+	}
+	#menu1 {
+		display: none;
+	}
+	#menu2 {
+		left: 400px;
+	}
+	.right {
+		width: 54.5%;
+		padding-left: 0;
+	}
+	.left {
+		width: 25%;
+		float: left;
+		margin-left: 10px;
+	}
+	#box10 {
+		display: none;
+	}
+	#tab {
+		width: 700px;
+		margin-left: 20px;
+	}
+	#tab1 {
+		padding-left: 15px;
+	}
+	#bang {
+		width: 700px;
+		margin-left: 20px;
+	}
+	#bang1 {
+		padding-left: 15px;
+	}
+	#bang2 {
+		padding-left: 15px;
+	}
+	#bang3 {
+		padding-left: 15px;
+	}
+	#bang4 {
+		padding-left: 15px;
+	}
+}

@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+
+</head>
+<body>
+	<script type="text/javascript">
+		var dem = 0;
+
+		for (var i = 1; i <= 100; i++){	
+    		if (i % 3 == 0 || i % 7 == 0){
+        		document.write(i + ' . ');
+        		dem ++;
+    		}
+   		}
+   		document.write('<br>' + 'Có ' + dem + ' số chia hết cho 3 hoặc 7');
+	</script>
+</body>
+</html>

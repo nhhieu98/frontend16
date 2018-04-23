@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+</head>
+<body>
+	
+	<!-- <input type="text" name="" value="AAA"> -->
+
+	<select onchange="changeCoutry()" id="select">
+		<option value="1">Ha Noi</option>
+		<option value="2">Ho Chi Minh</option>
+	</select>
+
+	<div id="content">
+		
+	</div>
+	<p></p>
+
+	<script type="text/javascript" src="js/jquery.min.js"></script>
+
+	<script type="text/javascript">
+		function changeCoutry() {
+			var select = $('select').val();
+
+			$('#content').append('<p>' + select +'</p>')
+		}
+
+	</script>
+</body>
+</html>

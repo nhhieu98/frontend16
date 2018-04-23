@@ -1,0 +1,330 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+.head1 {
+	background-color: red;
+	height: 80px;
+	position: relative;
+	}
+#first {
+	height: 50px;
+	margin-left: 100px;
+}
+#second {
+	margin-left: 100px;
+}
+.head2 {
+	height: 130px;
+	background-color: lavender;
+}
+#tex {
+	position: absolute;
+	right: 320px;
+	top: 81px;
+}
+#img{
+	position: absolute;
+	left: 300px;
+	top: 98px;
+}
+#menu li {
+	list-style: none;
+	float: left;
+	padding-right: 20px;
+
+}
+#menu li a {
+	text-decoration: none;
+	color: white;
+}
+#menu li:hover{
+	text-decoration: underline;
+}
+.footer {
+	width: 100%;
+	height: 3000px;
+
+}
+.left {
+	width: 70%;
+	float: left;
+}
+.right {
+	width: 24%;
+	height: 2220px;
+	background-color: lavender;
+	float: left;
+	text-align: center;
+}
+#tab1 {
+	height: 40px;
+	line-height: 40px;
+}
+#tab2 {
+	height: 220px;
+}
+.right .right2 {
+	text-align: left;
+}
+.right2 #bg {
+	padding-left:  20px;
+}
+#bg {
+	background-color: lavender;
+	height: 40px;
+	line-height: 40px;
+}
+#bg1 {
+	height: 50px;
+	border-bottom: 1px solid gray;
+}
+#small {
+	width: 70%;
+	float: left;
+}
+#small1 {
+	float: left;
+	margin-left:60px; 
+}
+.left .text1 {
+	margin-left: 250px;
+}
+.left .text2 {
+	margin-left: 250px; 
+}
+.left .text3 {
+	margin-left: 250px;
+}
+.left .text4 {
+	margin-left: 250px;
+}
+.left .text5 {
+	margin-left: 250px;
+}
+.left .text6 {
+	margin-left: 250px;
+}
+.left .text7 {
+	margin-left: 250px;
+}
+.left .text8 {
+	margin-left: 250px;
+}
+.left .text9 {
+	margin-left: 250px;
+}
+.left .text10 {
+	margin-left: 250px;
+}
+#index {
+	width: 35%;
+	float: left;
+	line-height: 22px;
+}
+#image {
+	width: 397px;
+	float: left;
+}
+.text2 {
+	clear: both;
+	height: 450px;
+}
+.box1 {
+	width: 33%;
+	border-right: 1px solid gray;
+	float: left;
+}
+.box1 #form {
+	margin-right: 12px;
+	line-height: 25px;
+}
+.box2 {
+	width: 37%;
+	border-right: 1px solid gray;
+	float: left;
+}
+.box2 #form1 {
+	margin-right: 12px;
+	margin-left: 12px;
+	line-height: 25px;
+}
+.box3 {
+	width: 27%;
+	line-height: 25px;
+	float: left;
+}
+.box3 #form2 {
+	margin-left: 12px;
+	line-height: 25px;
+}
+#form2 {
+	height: 130px;
+	border-bottom: 1px solid;
+}
+.box3 #form3 {
+	margin-left: 12px;
+	line-height: 25px;
+}
+.text3 {
+	clear: both;
+}
+.table1 {
+	float: left;
+}
+.table2 {
+	float: left;
+}
+.table2 #slide3 {
+	margin-left: 20px;
+}
+.table2 #slide4 {
+	margin-left: 20px;
+}
+#slide1 {
+	border-bottom: 1px solid gray;
+	height: 80px;
+	line-height: 25px;
+	width: 300px;
+}
+#slide2 {
+	height: 95px;
+	line-height: 25px;
+	width: 300px;
+}
+#slide3 {
+	border-bottom: 1px solid gray;
+	height: 80px;
+	line-height: 25px;
+	width: 310px;
+}
+#slide4 {
+	height: 95px;
+	line-height: 25px;
+	width: 310px;
+}
+.group {
+	width: 320px;
+	height: 125px;
+	line-height: 19px;
+}
+.table3 {
+	float: left;
+}
+#images {
+	float: left;
+}
+#note {
+	width: 155px;
+	float: left;
+}
+.table4 {
+	margin-left: 10px;
+	float: left;
+}
+.box4 {
+	height: 300px;
+}
+#note1 {
+	width: 34%;
+	float: left;
+	line-height: 25px;
+}
+#images1 {
+	width: 65%;
+	float: left;
+}
+.box5 {
+	height: 160px;
+}
+#images2 {
+	float: left;
+}
+#note2 {
+	margin-left: 20px;
+	width: 70%;
+	float: left;
+	line-height: 25px;
+}
+.last {
+	height: 160px;
+	background-color: gray;
+}
+#last1 {
+	margin-left: 250px;
+}
+#a1 {
+	float: left;
+	margin-right: 100px;
+}
+#a2 {
+	float: left;
+	margin-right: 100px;
+}
+#a3 {
+	float: left;
+	margin-right: 100px;
+}
+#a4 {
+	float: left;
+	margin-right: 100px;
+}
+#cuoi li {
+	list-style: none;
+	color: white;
+	float: left;
+	margin-right: 20px;
+
+}
+.cuoi1 {
+	color: white;
+	clear: both;
+}
+.right2 #bg1:hover{
+	color:blue;
+	cursor: pointer;
+}
+.right1 #tab2:hover b {
+	color: blue;
+ 	cursor: pointer;
+}
+.box5 #images2:hover~{
+	color: blue;
+	cursor: pointer;
+}
+.text1 b:hover{
+	color: blue;
+	cursor: pointer;
+}
+.box1 #form b:hover {
+	color: blue;
+	cursor: pointer;
+}
+.box2 #form1 b:hover {
+	color: blue;
+	cursor: pointer;
+}
+.box3 #form2 b:hover {
+	color: blue;
+	cursor: pointer;
+}
+.box3 #form3 b:hover {
+	color: blue;
+	cursor: pointer;
+}
+#slide4 b:hover {
+	color:blue;
+	cursor: pointer;
+}
+#slide1 b:hover {
+	color: blue;
+	cursor: pointer;
+}
+#slide2 b:hover {
+	color: blue;
+	cursor: pointer;
+}
+#slide3 b:hover {
+	color: blue;
+	cursor: pointer;
+}

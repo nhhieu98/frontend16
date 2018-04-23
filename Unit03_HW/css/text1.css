@@ -1,0 +1,13 @@
+.box {
+	border: 1px solid;
+	float: left;
+	margin-right: 30px;
+	line-height: 32px;
+	width: 140px;
+	text-align: center;
+}
+
+.text {
+	border: 1px solid;
+	width: 1035px;
+}

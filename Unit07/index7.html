@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+</head>
+<body>
+	<select id="city" onchange="test(this)">
+		<option value="1">Hà Nội</option>;
+		<option value="2">Đà Nẵng</option>;
+		<option value="3">Hồ Chí Minh</option>;
+	</select>
+
+	<select id="district">
+		<option value="">-- Chọn --</option>
+	</select>
+
+	<script type="text/javascript">
+		function test(a) {
+			var b = document.getElementById('district');
+
+			if (a.value == 1) {
+				b.innerHTML = '<option value="1">Hai Bà Trưng</option><option value="2">Đống Đa</option><option value="3">Cầu Giấy</option>';
+			}
+			else if (a.value == 2){
+				b.innerHTML = '<option value="1">Quận 1</option><option value="2">Quận 5</option><option value="3">Quận 10</option>';
+			}
+			else {
+				b.innerHTML = '<option value="1">Q2</option><option value="2">Q3</option><option value="3">Q1</option>';
+			}
+		}
+	</script>
+</body>
+</html>

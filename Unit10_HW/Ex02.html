@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<script type="text/javascript" src="js/index2.js"></script>
+	<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<style type="text/css">
+		img {
+			width: 800px;
+			height: 400px;
+		}
+		button {
+			border: none;
+			border-radius: 50%;
+			opacity: 0.6;
+			
+		}
+		#content {
+			position: relative;
+		}
+		#next {
+			width: 40px;
+			height: 40px;
+			position: absolute;
+			top: 180px;
+			left: 760px;
+		}
+		#prev {
+			width: 40px;
+			height: 40px;
+			position: absolute;
+			top: 180px;
+			left: 10px;
+		}
+		#small {
+			position: absolute;
+			top: 380px;
+			left: 20px;
+
+		}
+		#img {
+			display: none;
+		}
+	</style>
+</head>
+<body>
+	<div id="content">
+		<div>
+			<img id ="content2" src="img/1.jpg">
+		</div>
+		<div id="img">
+			<img id ="content2" src="img/2.jpg">
+		</div>
+		<div id="img">
+			<img id ="content2" src="img/3.jpg">
+		</div>
+		<div id="img">
+			<img id ="content2" src="img/4.jpg">
+		</div>
+		<div id="img">
+			<img id ="content2" src="img/5.jpg">
+		</div>
+	</div>
+	<div>
+		<button onclick="next()" id="next"><i class="fa fa-chevron-right" aria-hidden="true"></i></button>
+		<button onclick="prev()" id="prev"><i class="fa fa-chevron-left" aria-hidden="true"></i></button>
+	</div>
+	<div id="small">
+		<button onclick="img(1)" class="box">1</button>
+		<button onclick="img(2)" class="box">2</button>
+		<button onclick="img(3)" class="box">3</button>
+		<button onclick="img(4)" class="box">4</button>
+		<button onclick="img(5)" class="box">5</button>
+	</div>
+</body>
+</html>

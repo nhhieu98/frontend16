@@ -1,0 +1,195 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: arial;
+}
+ul li {
+	list-style: none;
+	float: left;
+}
+.row {
+	margin: 0;
+}
+#banner1 {
+	background-color: #008080;
+	width: 100%;
+}
+#anh {
+	width: 350px;
+	padding-left: 30px;
+	float: left;
+}
+#search {
+	float: left;
+	width: 400px;
+	padding-top: 20px;
+}
+#search1, #search2 {
+	float: left;
+}
+#search1 input {
+	width: 250px;
+	height: 35px;
+	border: 0px;
+	background-color: #004d4d;
+}
+#hieu {
+	width: 500px;
+	color: #00e6e6;
+	float: left;
+	padding-top: 15px;
+}
+#sp1 {
+	float: left;
+}
+#sp2 {
+	float: left;
+	width: 100px;
+	margin-left: 10px;
+}
+#sp, #sp3, #sp4 {
+	float: left;
+	
+}
+#bar {
+	background-color: #009999;
+	padding-left: 40px;
+}
+#bar a:hover {
+	cursor: pointer;
+}
+#select {
+	padding-left: 500px;
+}
+#right {
+	background-color: lavender;
+	height: 40px;
+	line-height: 40px;
+}
+#menu {
+	color: #00e6e6;
+	float: right;
+	padding-right: 100px;
+}
+#main {
+	float: left;
+}
+#tieude {
+	color: #00e6e6;
+	font-size: 25px;
+}
+#text {
+	border: 1px solid;
+	padding-left: 20px;
+	padding-right: 10px;
+}
+#text img {
+	padding-left: 40px;
+	width: 100%;
+}
+#text1 img {
+	width: 100%;
+}
+#note {
+	font-style: oblique;
+	padding-left: 180px;
+}
+#ps {
+	margin-left: 750px;
+	height: 50px;
+}
+#text1 {
+	border: 1px solid;
+	border-top: none;
+	margin: 0;
+}
+#text2 {
+	background-color: lavender;
+	
+}
+#box1 {
+	margin-top: 30px;
+	width: 371px;
+	margin-left: 40px;
+	background-color: white;
+	float: left;
+}
+#box2 {
+	margin-top: 30px;
+	width: 371px;
+	margin-left: 50px;
+	background-color: white;
+	float: left;
+}
+.clear {
+	clear: both;
+}
+#box3 {
+	width: 371px;
+	margin-left: 40px;
+	margin-top: 30px;
+	margin-bottom: 30px;
+	float: left;
+	background-color: white;
+}
+#box4 {
+	width: 371px;
+	float: left;
+	margin-left: 50px; 
+	margin-top: 30px;
+	margin-bottom: 30px;
+	background-color: white;
+}
+#tab {
+	float: left;
+}
+#bg {
+	background-image: url(../images/frame.png);
+	height: 40px;
+	line-height: 40px;
+	padding-left: 30px;
+}
+#tab1 {
+	border: 1px solid;
+	width: 350px;
+}
+#tex {
+	margin-left: 20px;
+}
+#index {
+	margin-left: 20px;
+}
+#index:hover {
+	color: #00e6e6;
+	cursor: pointer;
+}
+#table {
+	margin-left: 16px;
+	margin-right: 60px;
+}
+#font1 {
+	float: left;
+	height: 45px;
+	border: 1px solid;
+}
+#font2 {
+	float: left;
+	border: 1px solid;
+}
+h5 {
+	color: #00e6e6;
+	padding-top: 10px;
+}
+#image2 {
+	float: left;
+	padding-top: 35px;
+	padding-bottom: 52px;
+	background-color: #008080;
+}
+#image1 {
+	background-color: #008080;
+	float: left;
+}
+#image1 img, #image2 img {
+	width: 100%;
+}

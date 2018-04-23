@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<style type="text/css">
+		
+	</style>
+</head>
+<body>
+	
+	<div>
+		<ul>
+			<li>
+				<span id="span">1</span>
+				<span>2</span>
+			</li>
+			<li>
+				<b>Ahii</b>
+			</li>
+		</ul>
+
+		<h2>Ahihi</h2>
+	</div>
+	
+
+	<script type="text/javascript" src="js/jquery.min.js"></script>
+
+	<script type="text/javascript">
+		$(function() {
+			// $('span').parent().css('color','red');
+			// $('div').children('h2').css('color','green');
+
+			$('span').click(function(){
+				$(this).parents('ul').next().css('color','red');
+			})
+		})
+	</script>
+</body>
+</html>

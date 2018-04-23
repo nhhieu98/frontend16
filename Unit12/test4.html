@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<style type="text/css">
+		
+	</style>
+</head>
+<body>
+	<input type="text" name="" id="input">
+	<button type="add" id="add">Add</button>
+	<button id="update" style="display: none;">Update</button>
+	<button id="checkall">CheckAll</button>
+	<button id="uncheckall">UnCheckAll</button>
+	<button id="del">DeleteAll</button>
+
+	<div id="content">
+		
+	</div>
+
+	<script type="text/javascript" src="js/jquery.min.js"></script>
+
+	<script type="text/javascript">
+		var main =1;
+		var main_copy = 1;
+
+	$(function(){
+		$('#add').click(function(){
+			var input = $('#input').val();
+
+			var text = '<div> <input class = "check" type="checkbox">' + input + '<button class="edit">Edit</button><button class="del">Del</button> </div>';
+
+			$('#content').prepend(text);
+			$('#input').val('');
+			main++;
+		});
+
+		$('body').on('click', '#checkall', function(){
+			$('input[type="checkbox"]').each(function(){
+				$(this).prop('checked', true);
+			});
+		});
+
+		$('body').on('click', '#del', function(){
+			$('input[type="checkbox"]').each(function(){
+				if ($(this).is(':checked')) {
+					$(this).parent().remove();
+				}
+			});
+		});
+
+		$('body').on('click', '.edit', function() {
+
+				var content = $(this).attr('content');
+				$('#input').val(content);
+
+				main_copy = $(this).parent().attr('id');
+				
+				$('#update').attr('main_copy', main_copy);
+
+				$('#update').show();
+				$('#add').hide();
+		});
+
+		$('body').on('click', '#update', function() {
+	
+				var input = $('#input').val();
+
+				
+				var text = '<div id="'+ main_copy +'"> <input type="checkbox"> '+ input + ' <button class="edit" content='+ input +'>Edit</button><button class="del">Del</button> </div>'; 
+
+				$('#' + main_copy).html(text);
+
+				$('#input').val('');
+
+				$('#update').hide();
+				$('#add').show();
+
+			})
+	})
+		
+
+	</script>
+</body>
+</html>

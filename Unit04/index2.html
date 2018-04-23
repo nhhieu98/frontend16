@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<style type="text/css">
+		nav {
+			background-color: lavender;
+			height: 38px;
+		}
+		ul {
+			padding-left: 0;
+		}
+		li {
+			list-style: none;
+		}
+		.menu>li {
+			float: left;
+			line-height: 38px;
+			position: relative;
+		}
+		.menu>li>a {
+			text-decoration: none;
+			padding-left: 8px;
+			padding-right: 8px;
+			color: red;
+		}
+		.menu>li:hover {
+			background-color:  blue
+		}
+		.sub>li>a {
+			text-decoration: none;
+			color: red;
+			padding-left: 5px;
+
+		}
+		.sub {
+			position: absolute;
+			display: none;
+			background-color: lavender;
+			width: 100px;
+		}
+		.menu>li:hover .sub {
+			display: block;
+		}
+		.sub>li:hover {
+			background-color: blue;
+		}
+		
+		.sub>li {
+			position: relative;
+		}
+		.has-sub {
+			display: none;
+			color: red;
+			background-color: lavender;
+			width: 100px;
+		}
+		.has-sub>li>a {
+			text-decoration: none;
+		}
+		li>a {
+			color: red;
+		}
+		.sub>li:hover .has-sub {
+			display: block;
+			position: absolute;
+			top: 0;
+			left: 100px;
+		}
+		.has-sub>li:hover {
+			background-color: blue;
+		}
+	</style>
+</head>
+<body>
+	<nav>
+		<ul class="menu">
+			<li><a href="#"><i class="fa fa-id-card" aria-hidden="true"></i>Home</a></li>
+			<li><a href="#">About</a></li>
+			<li>
+				<a href="#">Course</a>
+				
+				<ul class="sub">
+					<li>
+						<a href="#">PHP</a>
+						<ul class="has-sub">
+							<li><a href="#">PHP1</a></li>
+							<li><a href="#">PHP2</a></li>
+							<li><a href="#">PHP3</a></li>
+						</ul>
+					</li>
+					<li><a href="#">Jave</a></li>
+					<li><a href="#">Front end</a></li>
+				</ul>
+			</li>
+			<li><a href="#">Contact</a></li>
+		</ul>
+	</nav>
+</body>
+</html>

@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+</head>
+<body>
+	<script type="text/javascript">
+		var n = prompt('Nhập n nguyên dương: ');
+		alert('Số vừa nhập là: ' +n);
+
+		var s = 0;
+		var t = 0;
+		for (var i = 1; i <= n; i++) {
+			for (var j = 1; j < i; j++) {
+				t = j*i;			
+				s += i/t;
+			}
+		}
+		document.write('S = 1/1! + 2/2! + 3/3!+...+n/n! = ' +s);
+	</script>
+</body>
+</html>

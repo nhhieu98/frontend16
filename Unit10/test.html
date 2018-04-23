@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+</head>
+<body>
+	<input type="text" id="input" onkeyup="checkValue()">
+	<button id="add" disabled onclick="add()">Add</button>
+	<button id="checkall" onclick="check(true)">Check All</button>
+	<button id="uncheckall" onclick="check(false)">UnCheck All</button>
+	<button id="delete" onclick="deleteall()">Delete</button>
+	<table>
+		<tbody id="content">
+			
+		</tbody>
+	</table>
+	<script type="text/javascript">
+		function checkValue() {
+			var input = document.getElementById('input');
+			if (input.value != '') {
+				document.getElementById('add').disabled = false;
+			}
+			else {
+				document.getElementById('add').disabled = true;
+			}
+		}
+
+
+		var i = 0;
+		function add() {
+			
+			var input = document.getElementById('input');
+
+			var tr = '<tr id="' + i + '"><td><input type="checkbox" class="check" value="' + i +'"></td><td>' + input.value + '</td><td><button onclick="edit('+ i +')">Edit</button><button onclick="del('+ i +')">Delete</button></td></tr>';
+
+			var content = document.getElementById('content');
+
+			content.innerHTML = tr + content.innerHTML;
+
+			input.value = '';
+			document.getElementById('add').disabled = true;
+			i++;
+		}
+		function del (id) {
+			document.getElementById(id).remove();
+		}
+		
+		function check(a){
+			var check = document.getElementsByClassName('check');
+
+			for (var j = 0; j < check.length; j++) {
+				check[j].checked = a;
+			}
+		}
+		function deleteall(){
+			var check = document.getElementsByClassName('check');
+
+			for (var m = check.length -1; m >= 0; m--) {
+				if (check[m].checked == true) {
+					document.getElementById(check[m].value).remove();
+				}
+			}
+		}
+
+		// function deleteall(){
+		// 	var check = document.getElementsByClassName('check');
+
+		// 	for (var k = 0; k < check.length; k++) {
+		// 		if (check[k].checked ==true) {
+		// 			document.getElementById(check[k].value).remove();
+		// 		}
+		// 	}
+		// }
+	</script>
+</body>
+</html>
